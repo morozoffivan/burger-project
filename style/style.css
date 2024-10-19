@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+#header {
+    width: 1600px;
+    height: 900px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180.00deg, rgb(237, 164, 24) 47.396%, rgba(237, 164, 24, 0) 100%);
+}
+
+.wrapper {
+    margin: 105px 218px 0 130px;
+}
+
+.flex-container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container-nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    align-items: center;
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-columns: 572px 650px;
+    grid-template-rows: 600px;
+    grid-column-gap: 40px;
+}
+
+.flex-in-grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.flex-in-grid-item-1 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.flex-in-grid-item-2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.flex-in-grid-item-3>button {
+    color: #fff;
+    background-color: #E62626;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.logo {
+    width: 354.42px;
+    height: 72.51px;
+}
+
+.basket {
+    width: 70px;
+    height: 70px;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.to-main {
+    font-weight: 700;
+}
