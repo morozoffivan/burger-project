@@ -123,5 +123,41 @@ nav {
 /* main style end */
 
 /* footer style start */
+#footer {
+    width: 1600px;
+    height: 450px;
+    background: linear-gradient(180.00deg, rgba(217, 217, 217, 0), rgb(237, 166, 29) 100%);
+    font-size: 20px;
+    font-weight: 500;
+}
 
+.wrapper-footer{
+    margin: 157px 357px 75px 279px;
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.flex-in-flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 101px;
+}
+
+.flex-in-flex-container-contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-in-flex-container-contacts>img {
+    width: 50px;
+}
+
+.dif-weight-item-footer{
+    font-weight: 400;
+}
 /* footer style end */
